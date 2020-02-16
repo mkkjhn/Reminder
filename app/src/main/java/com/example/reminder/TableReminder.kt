@@ -3,7 +3,6 @@ package com.example.reminder
 import androidx.room.*
 
 @Entity(tableName = "reminders")
-
 data class Reminder(
     @PrimaryKey(autoGenerate = true) var uid: Int?,
     @ColumnInfo(name = "time") var time: Long?,
